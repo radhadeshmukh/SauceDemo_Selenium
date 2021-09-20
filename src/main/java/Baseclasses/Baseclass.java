@@ -18,7 +18,7 @@ public static WebDriver getDriver() throws Exception
 	 FileInputStream fs= new FileInputStream("src/main/java/Baseclasses/GlobalVariable.properties");
 	 prop.load(fs);
 	
-	 System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+	 System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe")
 	 driver= new ChromeDriver();
 	
 	//driver.get(prop.getProperty("URL2"));
